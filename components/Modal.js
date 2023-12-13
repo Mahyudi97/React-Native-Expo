@@ -5,7 +5,7 @@ export default function Home({navigation}) {
   const [isModalVisible,setIsModalVisible] = useState(false)
 
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: '#faebd7', alignItems: 'center',  justifyContent: 'center'}}>
+    <View style={{ flex: 1, backgroundColor: '#281483, #8F6ED5, #D782D9', alignItems: 'center',  justifyContent: 'center'}}>
         <Text>Home</Text>
         <Button
             title="Go to profile"
@@ -32,7 +32,7 @@ export default function Home({navigation}) {
             <Button title='X' color={'midnightblue'} onPress={()=> { setIsModalVisible(false)}}></Button>
           </View>
         </Modal> */}
-    </SafeAreaView>
+    </View>
   );
 }
 
